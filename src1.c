@@ -10,7 +10,8 @@ sem_t r,b,t;
 pthread_mutex_t m;
 int x,y;
 
-void* f(void* a) {
+void* f(void* a) 
+{
     int i = *(int*)a;
     int c = i%2;
     
