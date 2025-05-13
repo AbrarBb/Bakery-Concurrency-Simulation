@@ -126,7 +126,8 @@ void setup_css() {
 }
 
 // Callback functions
-void on_add_red_clicked(GtkWidget *widget, gpointer data) {
+void on_add_red_clicked(GtkWidget *widget, gpointer data) 
+{
     create_customer(RED);
 }
 
